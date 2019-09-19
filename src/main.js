@@ -2,8 +2,14 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
+
 import './registerServiceWorker';
 import './assets/sass/main.scss';
+
+// global components
+import { Button } from './components/common';
+
+Vue.component('VBtn', Button);
 
 Vue.config.productionTip = false;
 
