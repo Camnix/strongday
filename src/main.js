@@ -7,9 +7,10 @@ import './registerServiceWorker';
 import './assets/sass/main.scss';
 
 // global components
-import { Button } from './components/common';
+import { Button, Heading } from './components/common';
 
 Vue.component('VBtn', Button);
+Vue.component('Heading', Heading);
 
 Vue.config.productionTip = false;
 

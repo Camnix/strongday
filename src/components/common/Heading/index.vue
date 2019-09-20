@@ -1,10 +1,10 @@
 <template>
-  <button
+  <div
     :class="{
-      'w-full py-2 my-2 rounded-lg': true,
-      'bg-blue-500 text-gray-200 hover:bg-blue-600 hover:shadow-md': primary,
-      'border border-blue-500 text-blue-500': secondary,
-      'text-red-700 hover:bg-red-100': tertiary
+      '': true,
+      'text-3xl font-medium': title,
+      '': secondary,
+      '': label
     }"
     v-text="text"
   />
@@ -12,9 +12,9 @@
 
 <script>
 export default {
-  name: 'Button',
+  name: 'Heading',
   props: {
-    primary: {
+    title: {
       type: Boolean,
       default: false
     },
@@ -22,7 +22,7 @@ export default {
       type: Boolean,
       default: false
     },
-    tertiary: {
+    label: {
       type: Boolean,
       default: false
     },

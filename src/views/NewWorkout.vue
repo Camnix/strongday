@@ -1,5 +1,9 @@
 <template>
   <div>
+    <Heading 
+      title
+      text="Start Workout"
+    />
     <VBtn
       primary
       text="Start an Empty Workout"
