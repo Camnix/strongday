@@ -3,8 +3,9 @@
     :class="{
       '': true,
       'text-3xl font-medium': title,
-      '': secondary,
-      '': label
+      'text-2xl font-medium': secondary,
+      'text-base font-weight-bold': label,
+      'text-xs text-gray-600': paragraph
     }"
     v-text="text"
   />
@@ -23,6 +24,10 @@ export default {
       default: false
     },
     label: {
+      type: Boolean,
+      default: false
+    },
+    paragraph: {
       type: Boolean,
       default: false
     },

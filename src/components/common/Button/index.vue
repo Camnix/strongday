@@ -1,7 +1,7 @@
 <template>
   <button
     :class="{
-      'w-full py-2 my-2 rounded-lg': true,
+      'w-full py-2 my-2 rounded-lg text-sm font-bold': true,
       'bg-blue-500 text-gray-200 hover:bg-blue-600 hover:shadow-md': primary,
       'border border-blue-500 text-blue-500': secondary,
       'text-red-700 hover:bg-red-100': tertiary
