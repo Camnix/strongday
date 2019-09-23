@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col px-4 pt-4 mb-16">
     <Heading 
       title
       text="Start Workout"
@@ -13,12 +13,12 @@
     <VBtn
       primary
       text="Start an Empty Workout"
-      class="mb-5"
+      class="sticky top-0 mb-5"
     />
     <Heading 
       secondary
       text="Routines"
-      class=""
+      class="mb-2"
     />
     <Routines />
   </div>

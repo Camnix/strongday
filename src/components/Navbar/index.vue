@@ -7,6 +7,10 @@
       exact
       active-class="text-gray-400"
     >
+      <VIcon
+        icon="icon-add"
+        class="fill-current"
+      /> 
       {{ item.name }}
     </RouterLink>
   </div>

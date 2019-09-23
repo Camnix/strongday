@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white border border-gray-400 rounded-lg p-3 max-w-full">
+  <div class="bg-white border border-gray-400 rounded-lg p-3 m-2">
     <Heading
       label
       :text="exercises.name"

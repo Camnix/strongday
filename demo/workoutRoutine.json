@@ -1,0 +1,63 @@
+{
+  "name":"PPL",
+  "workouts": [
+    {
+      "name": "Upper Body",
+      "exercises": [
+        {
+          "name": "Band Bench",
+          "setOrder": 1,
+          "sets": 6,
+          "bodyPart": "chest"
+        },
+        {
+          "name": "Bent Over Row",
+          "setOrder": 2,
+          "sets": 5,
+          "bodyPart": "Back"
+        },
+        {
+          "name": "Cable Flies",
+          "setOrder": 3,
+          "sets": 3,
+          "bodyPart": "chest"
+        },
+        {
+          "name": "Lat Pulldown (cable)",
+          "setOrder": 4,
+          "sets": 6,
+          "bodyPart": "Back"
+        }
+      ]
+    },
+    {
+      "name": "Upper Body",
+      "exercises": [
+        {
+          "name": "Band Bench",
+          "setOrder": 1,
+          "sets": 6,
+          "bodyPart": "chest"
+        },
+        {
+          "name": "Bent Over Row",
+          "setOrder": 2,
+          "sets": 5,
+          "bodyPart": "Back"
+        },
+        {
+          "name": "Cable Flies",
+          "setOrder": 3,
+          "sets": 3,
+          "bodyPart": "chest"
+        },
+        {
+          "name": "Lat Pulldown (cable)",
+          "setOrder": 4,
+          "sets": 6,
+          "bodyPart": "Back"
+        }
+      ]
+    }
+  ]
+}
